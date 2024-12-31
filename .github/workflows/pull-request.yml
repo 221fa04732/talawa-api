@@ -235,7 +235,7 @@ jobs:
         ports:
           - 27017:27017
       redis:
-        image: redis:6.0
+        image: redis:6.2
         options: >-
           --health-cmd "redis-cli ping"
           --health-interval 10s
@@ -331,7 +331,7 @@ jobs:
         ports:
           - 27017:27017
       redis:
-        image: redis:6.0
+        image: redis:6.2
         options: >-
           --health-cmd "redis-cli ping"
           --health-interval 10s
